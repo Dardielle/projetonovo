@@ -1,0 +1,65 @@
+
+
+programa
+{
+  funcao inicio()
+  {
+   
+   
+    real total=0.00
+   
+    inteiro opcao
+            caso 3:
+        total=total+18.00
+        pare
+       
+        caso 4:escreva(" Dardielle PARADINHA DO LANCHE\n\n")
+    faca
+    {
+     
+     
+      escreva("  1 -X-SALADA R$12 \n")
+      escreva("  2 -X-BACON R$15 \n")
+      escreva("  3 -X-EGG R$18  \n")
+      escreva("  4 -REFRIGERANTE R$8,00 \n")
+      escreva("  5 -FINALIZAR PEDIDO: \n")
+    escreva("qual das opções abaixo você deseja: ")
+    leia(opcao)
+
+
+      escolha (opcao) {
+        caso 1:
+          total=total+12.00
+        pare
+       
+        caso 2:
+       total=total+15.00
+        pare
+       
+
+
+        total=total+8.00  
+        pare
+
+
+        caso 5:
+        escreva("pedido finalizado. seu pedido ficou: ",total)
+
+
+        pare
+       
+        caso contrario:
+         escreva("INFORME O NÚMERO DE ACORDO COM O SEU PEDIDO(DE 1 A 5)\n\n")
+
+
+       
+      }      
+    }enquanto(opcao != 5)
+   
+
+
+    }
+  }
+}
+
+
